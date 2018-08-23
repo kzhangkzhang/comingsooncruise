@@ -1,0 +1,20 @@
+{
+  "name": "comingsooncruise",
+  "version": "1.0.0",
+  "description": "cruise vacation tracking",
+  "main": "index.js",
+  "homepage": "https://kzhangkzhang.github.io/comingsooncruise",  
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kzhangkzhang/comingsooncruise.git"
+  },
+  "author": "Kevin Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kzhangkzhang/comingsooncruise/issues"
+  },
+  "homepage": "https://github.com/kzhangkzhang/comingsooncruise#readme"
+}
