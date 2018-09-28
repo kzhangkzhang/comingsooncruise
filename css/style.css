@@ -62,6 +62,18 @@ p span {
   background: rgb(211, 205, 205);
 }
 
+.landing h3 {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #441f6e;
+  background: rgb(211, 205, 205);
+}
+
+/* cursor effect */
+.txt-type>.txt {
+  border-right: 0.2rem solid #777777;
+}
+
 .countdown {
   font-size: 50px;
   display: flex;
@@ -103,19 +115,24 @@ p span {
   .landing img {
     width: 40%;
   }
+
   .landing h1 {
     font-size: 30px;
   }
+
   .landing p {
     font-size: 20px;
   }
+
   .countdown {
     font-size: 30px;
     flex-direction: column;
   }
+
   .countdown div {
     display: none;
   }
+
   .countdown div:first-child {
     display: block;
     width: 80%;
@@ -127,6 +144,7 @@ p span {
   img {
     width: 20%;
   }
+
   p {
     display: none;
   }
@@ -136,6 +154,7 @@ p span {
   img {
     padding-bottom: 30px;
   }
+
   h1 {
     display: none;
   }

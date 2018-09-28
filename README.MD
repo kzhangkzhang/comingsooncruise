@@ -1,9 +1,15 @@
 # Project Description
 > A static single page to track my uncoming cruise Dec-2018
+> Hosted by pages.github: 
+* [Click here to launch](https://kzhangkzhang.github.io/comingsooncruise/index.html)
 
 ## Installation
 
 `>npm install -g gh-pages`
+
+## Deployment
+
+`>npm run deploy`
 
 ## Resources/Dependencies
 
