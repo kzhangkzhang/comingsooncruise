@@ -13,7 +13,7 @@ body {
 
 #particles-js {
   position: relative;
-  background-image: url("../img/bliss.jpg");
+  background-image: url("../img/epic.jpg");
   opacity: 0.9;
   background-size: cover;
   background-position: center;
@@ -41,7 +41,8 @@ body {
 }
 
 .animated {
-  transition: transform 1.5s ease-in-out 0.2s, rotate 2s linear 0.5s, opacity 3s ease-in-out 0.5s, border-radius 0.5s linear 0.2s;
+  transition: transform 1.5s ease-in-out 0.2s, rotate 2s linear 0.5s,
+    opacity 3s ease-in-out 0.5s, border-radius 0.5s linear 0.2s;
 }
 
 .landing h1 {
@@ -70,7 +71,7 @@ p span {
 }
 
 /* cursor effect */
-.txt-type>.txt {
+.txt-type > .txt {
   border-right: 0.2rem solid #777777;
 }
 

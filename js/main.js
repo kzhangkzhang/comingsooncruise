@@ -1,7 +1,7 @@
 const countdown = document.querySelector(".countdown");
 
 // Set launch day
-const launchDate = new Date("Dec 22, 2018 13:00:00").getTime();
+const launchDate = new Date("Dec 22, 2019 13:00:00").getTime();
 
 // console.log(launchDate);
 
@@ -111,10 +111,10 @@ function initMap() {
       content: "<h3>My Best Friends - Boston MA</h3>"
     },
     {
-      coords: { lat: 26.1224, lng: -80.1373 },
+      coords: { lat: 18.4655, lng: -66.1057 },
       iconImage:
         "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
-      content: "<h3>Cruise Departure</h3>"
+      content: "<h3>Cruise Departure (San Juan, Puerto Rico)</h3>"
     }
   ];
 
@@ -130,7 +130,7 @@ function initMap() {
   var triangleCoords = [
     { lat: 42.2831, lng: -87.9531 },
     { lat: 42.3601, lng: -71.0589 },
-    { lat: 26.1224, lng: -80.1373 },
+    { lat: 18.4655, lng: -66.1057 },
     { lat: 42.2831, lng: -87.9531 }
   ];
 
